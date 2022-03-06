@@ -37,3 +37,4 @@ echo -e $TEXT_BLUE
 echo 'Server is updated... Moving on'
 pause
 ###################################UPDATE FINISHED################################################
+snap install docker
