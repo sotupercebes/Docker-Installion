@@ -1,0 +1,11 @@
+#!/bin/bash
+sudo apt-get update 
+sudo apt-get upgrade -y
+sudo apt-get dist-upgrade -y
+sudo apt-get autoremove -y
+sudo apt-get autoclean
+pause
+###################################UPDATE FINISHED################################################
+sudo apt-get install curl git
+bash -c "$(curl -fsSL https://get.dockstarter.com)"
+pause
