@@ -6,6 +6,5 @@ sudo apt-get autoremove -y
 sudo apt-get autoclean
 pause
 ###################################UPDATE FINISHED################################################
-sudo apt-get install curl git
-bash -c "$(curl -fsSL https://get.dockstarter.com)"
+sudo apt-get install docker
 pause
